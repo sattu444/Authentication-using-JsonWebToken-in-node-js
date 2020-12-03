@@ -1,0 +1,19 @@
+GET http://localhost:3000/
+
+
+###
+
+POST http://localhost:3000/api/posts
+Content-Type: application/json
+Authorization: Satya eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXIiOiJzYXR5YSIsImVtYWlsIjoic2F0eWFAZ21haWwuY29tIn0sImlhdCI6MTYwNjk3OTg1OCwiZXhwIjoxNjA2OTc5ODg4fQ.MZYvf401gbalVL6cDTtw4379D7A6cYws9tV3nIxadxw
+
+###
+
+POST http://localhost:3000/api/login
+
+
+###
+POST http://localhost:3000/api/posts HTTP/1.1
+header Authorization: Satya eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXIiOiJzYXR5YSIsImVtYWlsIjoic2F0eWFAZ21haWwuY29tIn0sImlhdCI6MTYwNjg5OTA4Mn0.PuSc7HPcikqDQ5cKU5IBJixV5ZIllqJCz7b3HvKay4s
+
+Content-Type: application/json
